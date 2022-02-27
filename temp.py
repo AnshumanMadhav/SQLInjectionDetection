@@ -13,7 +13,7 @@ cv = pickle.load(open("count_vectorizer.pkl","rb"))
 
 def main():
     st.title("SQL Injection Query Detection")
-    st.subheader("Build with Streamlit and Python")
+    st.subheader("Application to Detect whether entered Query is mallicious or Non-Mallicious")
     msg = st.text_input("Enter Test Query: ")
     
     if st.button("Predict"):
