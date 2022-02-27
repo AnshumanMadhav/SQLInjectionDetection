@@ -1,2 +1,2 @@
-web: sh setup.sh && streamlit run temp.py
+web: sh setup.sh && streamlit run model.py
 
