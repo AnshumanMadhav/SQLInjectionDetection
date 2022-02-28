@@ -9,8 +9,8 @@ This is a temporary script file.
 import pickle
 import streamlit as st
 
-model = pickle.load(open("C:/Users/anshu/Desktop/AI-ML Course/Project/pkl Files/final_model.pkl","rb"))
-cv = pickle.load(open("C:/Users/anshu/Desktop/AI-ML Course/Project/pkl Files/count_vectorizer.pkl","rb"))
+model = pickle.load(open("final_model.pkl","rb"))
+cv = pickle.load(open("count_vectorizer.pkl","rb"))
 
 def main():
     st.title("SQL Injection Query Detection")
