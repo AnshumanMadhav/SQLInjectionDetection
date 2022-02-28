@@ -8,7 +8,7 @@ This is a temporary script file.
 import pickle
 import streamlit as st
 
-model = pickle.load(open("model.pkl","rb"))
+model = pickle.load(open("final_model.pkl","rb"))
 cv = pickle.load(open("count_vectorizer.pkl","rb"))
 
 def main():
